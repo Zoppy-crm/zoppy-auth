@@ -4,7 +4,7 @@ export { ExternalIdMiddleware } from './middleware/external-id.middleware';
 export { AuthMiddleware } from './middleware/auth.middleware';
 export { ExternalTokenMiddlewareHelper } from './helpers/external-token-middleware.helper';
 export { ExternalIdMiddlewareHelper } from './helpers/external-id-middleware.helper';
-export { JwtStrategy } from './../strategies/jwt.strategy';
+export { JwtStrategy } from './strategies/jwt.strategy';
 export { SessionService } from './session/session.service';
 export { SessionModule } from './session/session.module';
 export { UserPayload } from './models/user-payload';
