@@ -1,6 +1,7 @@
 export { CompanyPayload } from './models/company-payload';
 export { ExternalTokenMiddleware } from './middleware/external-token.middleware';
 export { ExternalIdMiddleware } from './middleware/external-id.middleware';
+export { ExternalAuthMiddleware } from './middleware/external-auth.middleware';
 export { AuthMiddleware } from './middleware/auth.middleware';
 export { ExternalTokenMiddlewareHelper } from './helpers/external-token-middleware.helper';
 export { ExternalIdMiddlewareHelper } from './helpers/external-id-middleware.helper';
