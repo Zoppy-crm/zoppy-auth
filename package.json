@@ -57,7 +57,7 @@
         "passport-jwt": "^4.0.0",
         "@nestjs/platform-express": "^9.0.5",
         "@ZoppyTech/models": "^2.0.3",
-        "@ZoppyTech/utilities": "^1.0.45",
+        "@ZoppyTech/utilities": "^1.0.93",
         "sequelize": "^6.28.1"
     },
     "jest": {
