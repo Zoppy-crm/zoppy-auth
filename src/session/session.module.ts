@@ -1,9 +1,9 @@
 import { Global, Module } from '@nestjs/common';
-import { SessionService } from './session.service';
+import { sessionProviders } from '../providers/session.providers';
 
 @Global()
 @Module({
-    exports: [SessionService],
-    providers: [SessionService]
+    exports: [{ ...sessionProviders }],
+    providers: [{ ...sessionProviders }]
 })
 export class SessionModule {}
