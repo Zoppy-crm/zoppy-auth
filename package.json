@@ -43,7 +43,7 @@
     "url": "https://github.com/ZoppyTech/zoppy-auth"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ZoppyTech"
+    "registry": "https://npm.pkg.github.com/Zoppy-crm"
   },
   "lint-staged": {
     "*.{ts,js}": "eslint --cache --fix"
